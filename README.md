@@ -1,22 +1,22 @@
-# 🌐 IoT Communication Model – Device Connectivity Project
+#  IoT Communication Model – Device Connectivity Project
 
 This project demonstrates the implementation of an IoT communication model for connecting physical devices and enabling remote monitoring and control. It was developed as part of a CPS Lab experiment at Visvodaya Engineering College.
 
 ---
 
-## 📘 Project Overview
+##  Project Overview
 
 The Internet of Things (IoT) enables seamless communication between devices, services, and people across any network, at any time, and from any place. This model focuses on **bi-directional communication** between IoT devices and remote user interfaces. The system supports real-time sensor monitoring (temperature and humidity) and actuator control (bulb on/off).
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 **To build a working IoT communication model for connecting and controlling hardware devices remotely.**
 
 ---
 
-## 🧩 Hardware Components
+##  Hardware Components
 
 - Raspberry Pi (with SD card)
 - DHT11 Sensor (Temperature & Humidity)
@@ -27,7 +27,7 @@ The Internet of Things (IoT) enables seamless communication between devices, ser
 
 ---
 
-## 🛠️ Software & Tools Used
+##  Software & Tools Used
 
 - Raspberry Pi Imager
 - PuTTY (SSH access)
@@ -38,7 +38,7 @@ The Internet of Things (IoT) enables seamless communication between devices, ser
 
 ---
 
-## 🔌 Communication Technologies Involved
+## Communication Technologies Involved
 
 - Wi-Fi (primary connectivity)
 - VNC over TCP/IP
@@ -47,7 +47,7 @@ The Internet of Things (IoT) enables seamless communication between devices, ser
 
 ---
 
-## 🧠 Description
+##  Description
 
 This IoT setup uses a Raspberry Pi configured with:
 - Remote access via SSH and VNC
@@ -59,7 +59,7 @@ The communication model maintains a persistent bi-directional connection between
 
 ---
 
-## 🧪 Setup Procedure (Step-by-Step)
+##  Setup Procedure (Step-by-Step)
 
 1. **SD Card Preparation**
    - Use Raspberry Pi Imager to install Raspberry Pi OS on a 16GB SD card.
@@ -86,7 +86,7 @@ The communication model maintains a persistent bi-directional connection between
 
 ---
 
-## ⚙️ UART Communication (`sp.c`)
+## ⚙ UART Communication (`sp.c`)
 
 This embedded C program configures UART0 for serial communication between microcontroller modules.
 
@@ -101,7 +101,7 @@ This is designed for microcontroller-to-microcontroller or sensor module communi
 
 ---
 
-## ✅ Output
+##  Output
 
 - Temperature and humidity readings shown in mobile/desktop dashboard.
 - Bulb toggles on/off based on user input.
@@ -109,13 +109,13 @@ This is designed for microcontroller-to-microcontroller or sensor module communi
 
 ---
 
-## 🧾 Conclusion
+##  Conclusion
 
 This project successfully demonstrates an **IoT communication system** that allows remote bi-directional interaction with connected devices using real-time sensor feedback and actuator control.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Lakshmi Pranathi Vutla**  
 Visvodaya Engineering College – Department of CSE  
@@ -123,7 +123,7 @@ Visvodaya Engineering College – Department of CSE
 
 ---
 
-## 🔗 Repository Links
+##  Repository Links
 
 - [Project Report (`IOT COMMUNICATION.docx`)](https://github.com/Pranathivutla30/your-repo-name/blob/main/IOT%20COMMUNICATION.docx)
 - [UART Code (`sp.c`)](https://github.com/Pranathivutla30/your-repo-name/blob/main/sp.c)
